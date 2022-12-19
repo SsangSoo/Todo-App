@@ -9,4 +9,9 @@ public class Controller {
     public String hello() {
         return "To-do Application !";
     }
+
+    @GetMapping("/1")
+    public String hello1() {
+        return "Git is Hard!";
+    }
 }
